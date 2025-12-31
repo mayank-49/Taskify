@@ -76,7 +76,7 @@ Make sure you have the following installed:
 
 ## 🔧 Backend Setup & Run
 
-### Step 1: Navigate to backend folder
+Step 1: Navigate to backend folder
 cd server
 
 Step 2: Install backend dependencies
@@ -95,7 +95,7 @@ node server.js
 or
 npm run server
 
-🎨 Frontend Setup & Run
+## 🎨 Frontend Setup & Run
 Step 1: Navigate to frontend folder
 cd client
 
