@@ -83,12 +83,11 @@ Step 2: Install backend dependencies
 npm install
 
 Step 3: Create .env file inside server folder
-env
 Copy code
-PORT=5000
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret
-NODE_ENV=production
+- PORT=5000
+- MONGO_URI=your_mongodb_connection_string
+- JWT_SECRET=your_jwt_secret
+- NODE_ENV=production
 
 Step 4: Start backend server
 node server.js
