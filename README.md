@@ -77,10 +77,10 @@ Make sure you have the following installed:
 ## 🔧 Backend Setup & Run
 
 Step 1: Navigate to backend folder
-cd server
+- cd server
 
 Step 2: Install backend dependencies
-npm install
+- npm install
 
 Step 3: Create .env file inside server folder
 Copy code
@@ -90,21 +90,21 @@ Copy code
 - NODE_ENV=production
 
 Step 4: Start backend server
-node server.js
-or
-npm run server
+- node server.js
+  or
+- npm run server
 
 ## 🎨 Frontend Setup & Run
 Step 1: Navigate to frontend folder
-cd client
+- cd client
 
 Step 2: Install frontend dependencies
-npm install
+- npm install
 
 Step 3: Create .env file inside client folder
-VITE_BACKEND_URL=http://localhost:5000
+- VITE_BACKEND_URL=http://localhost:5000
 
 Step 4: Start frontend application
-npm run dev
+- npm run dev
 
 
