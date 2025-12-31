@@ -65,5 +65,47 @@ This project was developed as part of a **Frontend Developer Intern assignment**
 
 ---
 
-## 📁 Project Structure
+Make sure you have the following installed:
+
+- Node.js (v16 or higher)
+- npm or yarn
+- MongoDB (local or MongoDB Atlas)
+- Git
+
+---
+
+## 🔧 Backend Setup & Run
+
+### Step 1: Navigate to backend folder
+cd server
+
+Step 2: Install backend dependencies
+npm install
+
+Step 3: Create .env file inside server folder
+env
+Copy code
+PORT=5000
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret
+NODE_ENV=production
+
+Step 4: Start backend server
+node server.js
+or
+npm run server
+
+🎨 Frontend Setup & Run
+Step 1: Navigate to frontend folder
+cd client
+
+Step 2: Install frontend dependencies
+npm install
+
+Step 3: Create .env file inside client folder
+VITE_BACKEND_URL=http://localhost:5000
+
+Step 4: Start frontend application
+npm run dev
+
 
